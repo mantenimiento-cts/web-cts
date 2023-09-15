@@ -1,5 +1,5 @@
 .naveg-bar {
-    background-color: black !important;
+    background-color: rgb(207, 204, 204) !important;
 }
 
 .imagen-circular {
@@ -9,7 +9,7 @@
 }
 
 .btn-link{
-  color: #ffffff;
+  color: black;
 }
 
 .btn-link:hover{
