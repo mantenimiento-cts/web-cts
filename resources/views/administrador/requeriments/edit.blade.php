@@ -10,15 +10,15 @@
                         <thead>
                             <tr>
                                 <th>DESCRIPCION</th>
-                                <th><input type="text" class="form-control" name="description" value=""></th>
+                                <th><input type="text" class="form-control" name="description" value="{{$requeriment->description}}"></th>
                             </tr>
                             <tr>
                                 <th>FECHA MANTENIMIENTO</th>
-                                <th><input type="date" class="form-control" name="maintenance_date" value=""></th>
+                                <th><input type="date" class="form-control" name="maintenance_date" value="{{$requeriment->maintenance_date}}"></th>
                             </tr>
                             <tr>
                                 <th>HORA MANTENIMIENTO</th>
-                                <th><input type="time" class="form-control" name="time_maintenance" value=""></th>
+                                <th><input type="time" class="form-control" name="time_maintenance" value="{{$requeriment->time_maintenance}}"></th>
                             </tr>
                             <tr>
                                 <th colspan="2"><button class="btn btn-primary w-100">Actualizar info</button></th>

@@ -10,11 +10,11 @@
                         <thead>
                             <tr>
                                 <th>FECHA DE CREACION</th>
-                                <th><input type="date" class="form-control" name="creation_date" value=""></th>
+                                <th><input type="date" class="form-control" name="creation_date" value="{{$ticket->creation_date}}"></th>
                             </tr>
                             <tr>
                                 <th>HORA DE CREACION</th>
-                                <th><input type="time" class="form-control" name="creation_time" value=""></th>
+                                <th><input type="time" class="form-control" name="creation_time" value="{{$ticket->creation_time}}"></th>
                             </tr>
                             <tr>
                                 <th colspan="2"><button class="btn btn-primary w-100">Actualizar info</button></th>
@@ -27,5 +27,5 @@
                 </form>
             </div>
         </div>
-    </div> 
+    </div>
     @endsection

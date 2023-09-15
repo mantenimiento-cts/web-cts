@@ -10,15 +10,15 @@
                         <thead>
                             <tr>
                                 <th>NOMBRES</th>
-                                <th><input type="text" class="form-control" name="name" value=""></th>
+                                <th><input type="text" class="form-control" name="name" value="{{$user->name}}"></th>
                             </tr>
                             <tr>
                                 <th>CORREO</th>
-                                <th><input type="text" class="form-control" name="email" value=""></th>
+                                <th><input type="text" class="form-control" name="email" value="{{$user->email}}"></th>
                             </tr>
                             <tr>
                                 <th>CONTRASEÑA</th>
-                                <th><input type="password" class="password" name="password" value=""></th>
+                                <th><input type="password" class="password" name="password" value="{{$user->password}}"></th>
                             </tr>
                             <tr>
                                 <th colspan="2"><button class="btn btn-primary w-100">Actualizar info</button></th>

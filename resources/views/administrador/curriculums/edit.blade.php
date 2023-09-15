@@ -1,6 +1,6 @@
 @extends('layouts.administrador')
 @section('content')
-    
+
 
     <div class="container">
         <div class="row">
@@ -17,7 +17,7 @@
                             </tr>
                             <tr>
                                 <th>FECHA DE MANTENIMIENTO</th>
-                                <th><input type="text" class="form-control" name="maintenance_date" value=""></th>
+                                <th><input type="text" class="form-control" name="maintenance_date" value="{{$curriculum->maintenance_date}}"></th>
                             </tr>
                             <tr>
                                 <th colspan="2"><button class="btn btn-primary w-100">Actualizar info</button></th>

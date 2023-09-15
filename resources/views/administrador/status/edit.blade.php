@@ -10,9 +10,9 @@
                         <thead>
                             <tr>
                                 <th>ESTADO</th>
-                                <th><input type="text" class="form-control" name="name" value=""></th>
+                                <th><input type="text" class="form-control" name="name" value="{{$statu->name}}"></th>
                             </tr>
-                           
+
                             <tr>
                                 <th colspan="2"><button class="btn btn-primary w-100">Actualizar info</button></th>
                             </tr>

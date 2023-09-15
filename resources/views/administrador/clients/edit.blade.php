@@ -1,6 +1,6 @@
 @extends('layouts.administrador')
 @section('content')
-    
+
 
     <div class="container">
         <div class="row">
@@ -12,31 +12,31 @@
                         <thead>
                             <tr>
                                 <th>NOMBRES</th>
-                                <th><input type="text" class="form-control" name="names" value=""></th>
+                                <th><input type="text" class="form-control" name="names" value="{{$client->names}}"></th>
                             </tr>
                             <tr>
                                 <th>APELLIDOS</th>
-                                <th><input type="text" class="form-control" name="last_names" value=""></th>
+                                <th><input type="text" class="form-control" name="last_names" value="{{$client->last_names}}"></th>
                             </tr>
                             <tr>
                                 <th>CORREO</th>
-                                <th><input type="text" class="form-control" name="email" value=""></th>
+                                <th><input type="text" class="form-control" name="email" value="{{$client->email}}"></th>
                             </tr>
                             <tr>
                                 <th>NUMERO DOCUMENTO</th>
-                                <th><input type="text" class="form-control" name="address" value=""></th>
+                                <th><input type="text" class="form-control" name="num_doc" value="{{$client->num_doc}}"></th>
                             </tr>
                             <tr>
                                 <th>NUMERO TELEFONO</th>
-                                <th><input type="text" class="form-control" name="address" value=""></th>
+                                <th><input type="text" class="form-control" name="num_phone" value="{{$client->num_phone}}"></th>
                             </tr>
                             <tr>
                                 <th>DIRECCION</th>
-                                <th><input type="text" class="form-control" name="address" value=""></th>
+                                <th><input type="text" class="form-control" name="address" value="{{$client->address}}"></th>
                             </tr>
                             <tr>
                                 <th>EMPRESA</th>
-                                <th><input type="text" class="form-control" name="address" value=""></th>
+                                <th><input type="text" class="form-control" name="address" value="{{$client->company}}"></th>
                             </tr>
                             <tr>
                                 <th colspan="2"><button class="btn btn-primary w-100">Actualizar info</button></th>

@@ -1,349 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Start your development with LeadMark landing page.">
+    <meta name="author" content="Devcrud">
+    <title>COLOMBIA TECHNICAL SUPPORT</title>
+    <!-- font icons -->
+    <link rel="stylesheet" href="{{url('assets/vendors/themify-icons/css/themify-icons.css')}}">
+    <!-- Bootstrap + LeadMark main styles -->
+	<link rel="stylesheet" href="{{url('assets/css/leadmark.css')}}">
 </head>
+<body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+    <!-- page Navigation -->
+    <nav class="navbar custom-navbar navbar-expand-md navbar-light fixed-top" data-spy="affix" data-offset-top="10">
         <div class="container">
-            <a href="#" class="navbar-brand"><span class="text-primary">Colombia</span>CTS </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
-                aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span></button>
-
-            <div class="collapse navbar-collapse" id="navbarS">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <a class="navbar-brand" href="#">
+                <img src="{{url('img/logo.png')}}" alt="">
+            </a>
+            <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Inicio</a>
+                        <a class="nav-link" href="#service">SERVICIOS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Nosotros</a>
+                        <a class="nav-link" href="#about">SOBRE NOSOSTROS</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Servicios</a>
+                        <a class="nav-link" href="#portfolio">PORTAFOLIO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Portafolio</a>
+                        <a class="nav-link" href="#contact">CONTACTO</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#" class="nav-link">Equipo</a>
+                        <a href="{{route('login')}}" class="ml-4 nav-link btn btn-primary btn-sm rounded">INICIAR SESION</a>
                     </li>
                     <li class="nav-item">
-                        <a href="{{route('login')}}" class="nav-link">Acceder</a>
-                    </li>
-                    <li class="nav-item">
-                        <a href="{{route('register')}}" class="nav-link">Registrarse</a>
+                        <a href="{{route('register')}}" class="ml-4 nav-link btn btn-primary btn-sm rounded">REGISTRARSE</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
+    <!-- End Of Second Navigation -->
 
-    <div class="carousel slide" id="carouselE" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="0" class="active" aria-current="true"
-                aria-label="Slide 1">
-            </button>
-
-            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="1" aria-current="true"
-                aria-label="Slide 2">
-            </button>
-
-            <button type="button" data-bs-target="#carouselE" data-bs-slide-to="2" aria-current="true"
-                aria-label="Slide 3">
-            </button>
+    <!-- Page Header -->
+    <header class="header">
+        <div class="overlay">
+            <h1 class="subtitle">COLOMBIA TECHNICAL SUPPORT</h1>
+            <h1 class="title">sistema de tickets</h1>
         </div>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="{{url('img/img1.png')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption">
-                    <h5>Mantenimiento de equipos de computo</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam doloremque impedit dicta eius
-                        perspiciatis repudiandae, ex possimus nemo aliquam quaerat laboriosam obcaecati illum, et
-                        tempore nam iusto! Optio, quis.</p>
-                        <a href="" class="btn btn-primary mt-3">Mas informacion</a>
-                </div>
-            </div>
-            <div class="carousel-item active">
-                <img src="{{url('img/img1.png')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption">
-                    <h5>Mantenimiento de equipos de computo</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam doloremque impedit dicta eius
-                        perspiciatis repudiandae, ex possimus nemo aliquam quaerat laboriosam obcaecati illum, et
-                        tempore nam iusto! Optio, quis.</p>
-                        <a href="" class="btn btn-primary mt-3">Mas informacion</a>
-                </div>
-            </div>
-            <div class="carousel-item active">
-                <img src="{{url('img/img1.png')}}" alt="" class="d-block w-100">
-                <div class="carousel-caption">
-                    <h5>Mantenimiento de equipos de computo</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea ullam doloremque impedit dicta eius
-                        perspiciatis repudiandae, ex possimus nemo aliquam quaerat laboriosam obcaecati illum, et
-                        tempore nam iusto! Optio, quis.</p>
-                        <a href="" class="btn btn-primary mt-3">Mas informacion</a>
-                </div>
-            </div>
+        <div class="shape">
+            <svg viewBox="0 0 1500 200">
+                <path d="m 0,240 h 1500.4828 v -71.92164 c 0,0 -286.2763,-81.79324 -743.19024,-81.79324 C 300.37862,86.28512 0,168.07836 0,168.07836 Z"/>
+            </svg>
         </div>
-        <button class="carousel-control-prev" type="button"
-        data-bs-target="#carouselE"
-        data-bs-silde="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Pewvious</span></button>
+        <div class="mouse-icon"><div class="wheel"></div></div>
+    </header>
+    <!-- End Of Page Header -->
 
-    <button class="carousel-control-next" type="button"
-    data-bs-target="#carouselE"
-    data-bs-silde="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-<span class="visually-hidden">Next</span></button>
-    </div>
-
-    <section class="abot section-padding">
+    <!-- Service Section -->
+    <section  id="service" class="section pt-0">
         <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-12 col-12">
-                    <div class="about-img">
-                        <img src="" alt="" class="img-fluid">
-                    </div>
-                </div>
+            <h6 class="section-title text-center">Nuestros Servicios</h6>
 
-                <div class="col-lg-8 col-md-12 col-12 ps-lg-5 mt-md-5">
-                    <div class="about-text text white">
-                        <h2>acerca de nosotros</h2>
-                        <p>Lorem</p>
-                        <a href="" class="btn btn-primary">Mas informacion</a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section class="services section-padding">
-        <div class="container">
             <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center text-white pb-5">
-                        <h2>Nuestros Servicios</h2>
-                        <p>Korem</p>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-white text-center bg-dark pb-2">
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
                         <div class="card-body">
-                            <i class="bi bi-laptop">
-                                <h3 class="card-title">Registro</h3>
-                                <p class="lead">Lorem</p>
-                                <button class="btn btn-priamry">Mas informacion</button>
-                            </i>
+                            <small class="text-primary font-weight-bold">01</small>
+                            <h5 class="card-title mt-3">Requerimientos<h5>
+                            <p class="mb-0">Agilizar procesos de requerimientos solicitados por clientes</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-white text-center bg-dark pb-2">
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
                         <div class="card-body">
-                            <i class="bi bi-wifi">
-                                <h3 class="card-title">Internet</h3>
-                                <p class="lead">Lorem</p>
-                                <button class="btn btn-priamry">Mas informacion</button>
-                            </i>
+                            <small class="text-primary font-weight-bold">02</small>
+                            <h5 class="card-title mt-3">Tickets<h5>
+                            <p class="mb-0">Generacion de tickets</p>
                         </div>
                     </div>
                 </div>
-
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-white text-center bg-dark pb-2">
+                <div class="col-md-4">
+                    <div class="card mb-4 mb-md-0">
                         <div class="card-body">
-                            <i class="bi bi-tv">
-                                <h3 class="card-title">tv</h3>
-                                <p class="lead">Lorem</p>
-                                <button class="btn btn-priamry">Mas informacion</button>
-                            </i>
+                            <small class="text-primary font-weight-bold">03</small>
+                            <h5 class="card-title mt-3">Mantenimiento correctivo<h5>
+                            <p class="mb-0">Lorem ipsum dolor sit amet, cquasi cupiditate voluptate debitis saepe dolorem totam dolor repudiandae quo nihil, repellendus nesciunt ab fuga quae, minima reprehenderit sequi fugit.</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End OF Service Section -->
 
-    <section class="portafolio section-padding">
+    <!-- About Section -->
+    <section class="section" id="about">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center text-white pb-5">
-                        <h2>Portafolio</h2>
-                        <p>Lorem</p>
-                    </div>
+            <div class="row justify-content-between">
+                <div class="col-md-6 pr-md-5 mb-4 mb-md-0">
+                    <h6 class="section-title mb-0">About Company</h6>
+                    <h6 class="section-subtitle mb-4">Architecto provident deserunt</h6>
+                    <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate molestiae temporibus et tenetur unde quasi, cum nemo quo, molestias architecto alias voluptatibus corrupti corporis earum. Necessitatibus maxime modi ipsam, quod!</p>
+                    <img src="assets/imgs/about.jpg" alt="" class="w-100 mt-3 shadow-sm">
                 </div>
-            </div>
-            <div class="row">
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-light text-center bg-dark pb-2">
-                        <div class="card-body text-white">
-                            <div class="img-area mb-4">
-                                <img src="" alt="" class="img-fluid">
-                            </div>
-                            <h3>mantenimiento</h3>
-                            <p class="lead">lore</p>
-                            <button class="btn bg-primary text-white">Mas informacion</button>
+                <div class="col-md-6 pl-md-5">
+                    <div class="row">
+                        <div class="col-6">
+                            <img src="assets/imgs/about-1.jpg" alt="" class="w-100 shadow-sm">
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-light text-center bg-dark pb-2">
-                        <div class="card-body text-white">
-                            <div class="img-area mb-4">
-                                <img src="" alt="" class="img-fluid">
-                            </div>
-                            <h3>mantenimiento 2</h3>
-                            <p class="lead">lore</p>
-                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        <div class="col-6">
+                            <img src="assets/imgs/about-2.jpg" alt="" class="w-100 shadow-sm">
                         </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-12 col-lg-4">
-                    <div class="card text-light text-center bg-dark pb-2">
-                        <div class="card-body text-white">
-                            <div class="img-area mb-4">
-                                <img src="" alt="" class="img-fluid">
-                            </div>
-                            <h3>mantenimiento 3</h3>
-                            <p class="lead">lore</p>
-                            <button class="btn bg-primary text-white">Mas informacion</button>
+                        <div class="col-12 mt-4">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo iusto quidem laborum atque, sapiente ipsa excepturi fuga cum sed in assumenda eos quasi harum culpa laboriosam nulla, incidunt quae. Voluptatum.</p>
+                            <p><b>Aliquid fuga sunt velit, temporibus molestias ab. Ipsa nesciunt totam, aliquid dignissimos.</b><br>
+                            </p>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt ut a dolorem, consectetur, eos suscipit consequatur magnam est dolore obcaecati adipisci expedita, vero, iste ducimus qui numquam animi facilis officia?</p>
                         </div>
                     </div>
                 </div>
             </div>
-
         </div>
     </section>
+    <!-- End OF About Section -->
 
-    <section class="team section-padding">
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="section portfolio-section">
         <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center text-white pb-5">
-                        <h2>Acessorios</h2>
-                        <p>Lorem</p>
-                    </div>
-                </div>
+            <h6 class="section-title text-center">Our Portfolio</h6>
+            <h6 class="section-subtitle mb-5 text-center">New stunning projects for our amazing clients</h6>
+            <div class="filters">
+                <a href="#" data-filter=".new" class="active">
+                    Requerimientos
+                </a>
+                <a href="#" data-filter=".advertising">
+                    Tickets
+                </a>
+                <a href="#" data-filter=".branding">
+                    Equipos
+                </a>
+                <a href="#" data-filter=".web">
+                    Curriculums
+                </a>
             </div>
-            <div class="row">
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card text-center bg-dark">
-                        <div class="card-body text-white">
-                            <img src="" alt="" class="img-fluid rounded-circle">
-                            <h3 class="card-title py-2">Lorem</h3>
-                            <p class="card-text">
-                                loew
-                            </p>
-                            <p class="socials">
-                                <i class="bi bi-twitter text-white mx-1"></i>
-                                <i class="bi bi-facebook text-white mx-1"></i>
-                                <i class="bi bi-linkedin text-white mx-1"></i>
-                                <i class="bi bi-instagram text-white mx-1"></i>
-                            </p>
+            <div class="portfolio-container">
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="{{url('img/requerimientos.webp')}}" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="{{url('img/requerimientos.webp')}}"></a>
+                            <div class="text-holder">
+                                <h6 class="title">Requerimientos</h6>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-                
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card text-center bg-dark">
-                        <div class="card-body text-white">
-                            <img src="" alt="" class="img-fluid rounded-circle">
-                            <h3 class="card-title py-2">Lorem</h3>
-                            <p class="card-text">
-                                loew
-                            </p>
-                            <p class="socials">
-                                <i class="bi bi-twitter text-white mx-1"></i>
-                                <i class="bi bi-facebook text-white mx-1"></i>
-                                <i class="bi bi-linkedin text-white mx-1"></i>
-                                <i class="bi bi-instagram text-white mx-1"></i>
-                            </p>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/web-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-2.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">WEB</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card text-center bg-dark">
-                        <div class="card-body text-white">
-                            <img src="" alt="" class="img-fluid rounded-circle">
-                            <h3 class="card-title py-2">Lorem</h3>
-                            <p class="card-text">
-                                loew
-                            </p>
-                            <p class="socials">
-                                <i class="bi bi-twitter text-white mx-1"></i>
-                                <i class="bi bi-facebook text-white mx-1"></i>
-                                <i class="bi bi-linkedin text-white mx-1"></i>
-                                <i class="bi bi-instagram text-white mx-1"></i>
-                            </p>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-2.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">ADVERSTISING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <div class="col-12 col-md-6 col-lg-3">
-                    <div class="card text-center bg-dark">
-                        <div class="card-body text-white">
-                            <img src="" alt="" class="img-fluid rounded-circle">
-                            <h3 class="card-title py-2">Lorem</h3>
-                            <p class="card-text">
-                                loew
-                            </p>
-                            <p class="socials">
-                                <i class="bi bi-twitter text-white mx-1"></i>
-                                <i class="bi bi-facebook text-white mx-1"></i>
-                                <i class="bi bi-linkedin text-white mx-1"></i>
-                                <i class="bi bi-instagram text-white mx-1"></i>
-                            </p>
+                <div class="col-md-6 col-lg-4 web">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/web-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-4.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">WEB</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4 advertising">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-1.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">ADVERSITING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 web new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/web-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                       <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/web-3.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">WEB</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                       <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-3.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">ADVERSITING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 advertising new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/advertising-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/advertising-4.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">ADVERTISING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-1.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-1.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">BRANDING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-2.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-2.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">BRANDING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding new">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-3.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-3.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">BRANDING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-4.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-4.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">BRANDING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 branding">
+                    <div class="portfolio-item">
+                        <img src="assets/imgs/branding-5.jpg" class="img-fluid" alt="Download free bootstrap 4 admin dashboard, free boootstrap 4 templates">
+                        <div class="content-holder">
+                            <a class="img-popup" href="assets/imgs/branding-5.jpg"></a>
+                            <div class="text-holder">
+                                <h6 class="title">BRANDING</h6>
+                                <p class="subtitle">Expedita corporis doloremque velit in totam!</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+    <!-- End of portfolio section -->
 
-    <section class="contact section-padding">
-        <div class="container mt-5 mb-5">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="section-header text-center text-white pb-5">
-                        <h2>Contacto</h2>
-                        <p>
-                            lorem
-                        </p>
-                    </div>
+    <!-- Contact Section -->
+    <section id="contact" class="section has-img-bg pb-0">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-5 my-3">
+                    <h6 class="mb-0">Telefono</h6>
+                    <p class="mb-4">46545222</p>
+
+                    <h6 class="mb-0">Correo</h6>
+                    <p class="mb-4">colombia@cts.com</p>
                 </div>
-            </div>
-            <div class="row m-0">
-                <div class="col-md-12 p-0 pt-4 pb-4">
-                    <form action="" class="bg-dark p-4 m-auto">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <input type="text" class="form-control">
-                                </div>
+                <div class="col-md-7">
+                    <form>
+                        <h4 class="mb-4">Dejanos tus datos</h4>
+                        <div class="form-row">
+                            <div class="form-group col-sm-4">
+                                <input type="text" class="form-control text-white rounded-0 bg-transparent" name="name" placeholder="Nombre">
                             </div>
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <input type="email" class="form-control">
-                                </div>
+                            <div class="form-group col-sm-4">
+                                <input type="email" class="form-control text-white rounded-0 bg-transparent" name="Email" placeholder="Correo">
                             </div>
-                            <div class="col-md-12">
-                                <div class="mb-3">
-                                    <textarea class="form-control" rows="3"></textarea>
-                                </div>
+                            <div class="form-group col-12">
+                                <textarea name="message" id="" cols="30" rows="4" class="form-control text-white rounded-0 bg-transparent" placeholder="Mensaje"></textarea>
+
                             </div>
-                            <button class="btn btn-primary btn-lg btn-block mt-3">Enviar</button>
+                            <div class="form-group col-12 mb-0">
+                                <button type="submit" class="btn btn-primary rounded w-md mt-3">Enviar</button>
+                            </div>
                         </div>
                     </form>
                 </div>
@@ -351,15 +350,18 @@
         </div>
     </section>
 
+	<!-- core  -->
+    <script src="{{url('assets/vendors/jquery/jquery-3.4.1.js')}}"></script>
+    <script src="{{url('assets/vendors/bootstrap/bootstrap.bundle.js')}}"></script>
 
-    <footer class="bg-dark p-2 text-center">
-        <div class="container">
-            <p class="text-white">P</p>
-        </div>
-    </footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
-    </script>
+    <!-- bootstrap 3 affix -->
+	<script src="{{url('assets/vendors/bootstrap/bootstrap.affix.js')}}"></script>
+
+    <!-- Isotope -->
+    <script src="{{url('assets/vendors/isotope/isotope.pkgd.js')}}"></script>
+
+    <!-- LeadMark js -->
+    <script src="{{url('assets/js/leadmark.js')}}"></script>
+
 </body>
-
 </html>
